@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EarthQuakeClient2()
+comment1.params=quakeData\ f
+comment1.target=java.util.ArrayList\ filter(java.util.ArrayList,\ Filter)
+comment2.params=
+comment2.target=java.util.ArrayList\ readData()
+comment3.params=list\ printAll
+comment3.target=void\ printResults(java.util.ArrayList,\ boolean)
+comment4.params=
+comment4.target=void\ quakesWithFilter()
+comment5.params=
+comment5.target=void\ testMatchAllFilter()
+comment6.params=
+comment6.target=void\ testMatchAllFilter2()
+comment7.params=
+comment7.target=void\ createCSV()
+comment8.params=list
+comment8.target=void\ dumpCSV(java.util.ArrayList)
+numComments=9

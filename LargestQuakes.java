@@ -39,7 +39,7 @@ public class LargestQuakes {
         ArrayList<QuakeEntry> list  = parser.read(source);
         System.out.println("read data for "+list.size());
 
-        ArrayList<QuakeEntry> largest = getLargest(list,5);
+        ArrayList<QuakeEntry> largest = getLargest(list,50);
         for(QuakeEntry quake : largest){
             System.out.println(quake.getMagnitude()+" "+quake.getInfo());
         }

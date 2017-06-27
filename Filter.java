@@ -1,4 +1,4 @@
-package EarthquakeFilterProgram;
+ 
 
 
 /**
@@ -10,4 +10,6 @@ package EarthquakeFilterProgram;
 public interface Filter
 {
     public  boolean satisfies(QuakeEntry qe); 
+    
+    public String getName();
 }
